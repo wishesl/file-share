@@ -93,6 +93,7 @@ func (fs *FileShare) CanvasObject() fyne.CanvasObject {
 				return
 			}
 			fs.createShare(filePath)
+			fs.w.Content().Refresh()
 		}()
 	})
 	createButton.SetIcon(assets.ShareDataSR)
