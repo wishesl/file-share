@@ -1,5 +1,7 @@
 # 局域网文件分享工具
 ----
+基于 fyne 实现的局域网文件分享工具
+
 ## 展示
 ### 主界面
 ![image](https://github.com/user-attachments/assets/4826b5dc-4928-49dc-98fe-e5b45bcd10f2)
